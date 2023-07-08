@@ -1,0 +1,261 @@
+TestCase Scenario,Testcase Id,Testcase Description,Step no ,Test data,Steps Description,expected result,actual result,pass/fail
+"Verify search button
+by entring valid data
+in respective fields","TC001_HOMEPAGE_
+LOGINPAGE_
+VALID DATA","This test case validates
+login functionality with
+valid data",1,"URL
+(https://www.irctc.co
+.in/nget/train-search)","Enter valid url in the search
+button and click on ok ","IRCTC home page 
+should open","Opens home
+page",pass
+,,,2,"  FROM
+TO
+DATE//MONTH//YEAR
+ALL CLASSES
+GENERAL","1.Enter valid FROM data
+2.Enter valid TO data
+3.select valid DATE//MONTH//YEAR
+4.Select valid ALL CLASSES
+5.Select valid GENERAL
+6.Click on SEARCH button","Should direct to 
+main page","Directs main
+page",pass
+,,,,,,,,
+"Verify search button
+ by entring invalid data
+ in respective fields","TC002_HOMEPAGE_
+ LOGINPAGE_ 
+INVALID DATA","This test case validates 
+login functionality with
+ invalid data",1,"URL
+(https://www.irctc.co.
+in/nget/train-search)","Enter valid url in the search button
+ and click on ok","IRCTC home page
+ should open","Opens home
+ page",pass
+,,,2,"FROM 
+TO 
+DATE//MONTH//YEAR
+ ALL CLASSES 
+GENERAL","1.Enter invalid FROM data 
+2.Enter valid TO data 
+3.select valid DATE//MONTH//YEAR
+ 4.Select valid ALL CLASSES
+ 5.Select valid GENERAL
+ 6.Click on SEARCH button","System should display 
+error message"" Please 
+select valid from station""","Displays error
+message""please
+select from 
+station""",pass
+,,,3,"FROM
+ TO
+ DATE//MONTH//YEAR
+ ALL CLASSES 
+GENERAL","1.Enter valid FROM data
+ 2.Enter invalid TO data 
+3.select valid DATE//MONTH//YEAR
+ 4.Select valid ALL CLASSES
+ 5.Select valid GENERAL
+ 6.Click on SEARCH button","System should display
+error message""Please
+enter valid TO station""","Displays error
+message""please
+select to
+station""",pass
+,,,4,"FROM
+ TO
+ DATE//MONTH//YEAR
+ALL CLASSES
+ GENERAL","1.Enter valid FROM data
+ 2.Enter valid TO data 
+3.select invalid DATE//MONTH//YEAR
+ 4.Select valid ALL CLASSES 
+5.Select valid GENERAL 
+6.Click on SEARCH button","System should display
+eoore message
+""please select valid 
+date//month//year""","Displays error
+message""please
+select valid 
+dd/mm/yyyy""",pass
+,,,,,,,,
+"Verify REGISTER button
+from home page","TC003_Homepage_
+Register","This test case verifies the
+register icon in main page",1,"URL
+(https://www.irctc.co.
+in/nget/train-search)","Enter valid url and click on search 
+button. it should open login page","it should open 
+home page",opens home page,pass
+,,,2,,In home page click on Register icon,"it should open register
+page",opends register page,pass
+,,,,,,,,
+"Verify AGENT LOGIN button
+ from home page","TC_004_HomePage_
+Agentlogin","This test case verifies the 
+agent login icon in main 
+page",1,"URL
+(https://www.irctc.co.
+in/nget/train-search)","Enter valid url and click on search
+ button. it should open login page","it should open
+ home page",opens home page,pass
+,,,2,,"In home page click on Agent login
+ icon","it should open 
+Agent login page",opens login page,pass
+,,,,,,,,
+"Verify Contact us button from
+ home page","TC_005_HomePage_ 
+Contact us","This test case verifies the 
+contact us icon in
+ main page",1,"URL
+(https://www.irctc.co.
+in/nget/train-search)","Enter valid url and click on search 
+button. it should open login page","it should open home
+ page",opens home page,pass
+,,,2,,"In home page click on contcat us
+ icon","it should open contact
+us page",opens contact page,pass
+,,,,,,,,
+"Verify ASK DISHA button
+ from home page","TC_006_HomePage_ 
+Disha","This test case verifies the 
+ASK Dishaicon
+ in main page",1,"URL
+(https://www.irctc.co.
+in/nget/train-search)","Enter valid url and click on search
+ button. it should open login page","it should open home 
+page",opens home page,pass
+,,,2,,"In home page click on ask disha
+ icon","it should openask disha
+ page",opens disha page,pass
+,,,,,,,,
+"Verify ALERTS button from
+ home page","TC_007_HomePage_ 
+Alerts","This test case verifies the 
+alerts icon in main page",1,"URL
+(https://www.irctc.co.
+in/nget/train-search)","Enter valid url and click on search
+ button. it should open login page","it should open home 
+page",opens home page,pass
+,,,2,,In home page click on alerts icon,"it should open Alerts
+ page",opens alerts page,pass
+,,,,,,,,
+"Verify IRCTC EXCLUSIVE
+ button from home page","TC_008_HomePage_ 
+IRCTC EXCLUSIVE","This test case verifies 
+IRCTC Exclusive icon 
+in main page",1,"URL
+(https://www.irctc.co
+.in/nget/train-search)","Enter valid url and click on search 
+button. it should open login page","it should open home
+page",opens home page,pass
+,,,2,,"In home page click on
+irctc exclusive icon","it should open 
+irctc exclusive page","opens irctc
+exclusive page",pass
+,,,,,,,,
+"Verify TRAINS button from
+ home page","TC_009_HomePage_
+Trains ","This test case verifies the 
+trains icon in main page",1,"URL
+(https://www.irctc.co.
+in/nget/train-search)
+","Enter valid url and click on search
+ button. it should open login page","it should open home 
+page",opens home page,pass
+,,,2,,In home page click on trains icon,"it should open tains
+ page",opens traiin page,pass
+,,,,,,,,
+"Verify BUSES button from
+ home page","TC_010_HomePage_ 
+buses","This test case verifies 
+buses icon in main page",1,"URL
+(https://www.irctc.co.
+in/nget/train-search)","Enter valid url and click on search 
+button. it should open login page","it should open home 
+page",opens home page,pass
+,,,2,,In home page click on buses icon,"it should open buses
+ page",opens buses page,pass
+,,,,,,,,
+"Verify FLIGHT button from
+ home page","TC_011_HomePage_ 
+login page","This test case verifies the 
+flight icon in main page",1,"URL
+(https://www.irctc.co.
+in/nget/train-search)","Enter valid url and click on search 
+button. it should open login page","it should open home 
+page",opens home page,pass
+,,,2,,In home page click on flight icon,"it should open flight
+ page",opens flight page,pass
+,,,,,,,,
+"Verify HOTELS button from
+ home page","TC_012_HomePage_ 
+hotels","This test case verifies the 
+hotels icon in main page",1,"URL
+(https://www.irctc.co.
+in/nget/train-search)","Enter valid url and click on search
+ button. it should open login page","it should open home
+ page",opens home page,pass
+,,,2,,In home page click on hotels icon,"it should open hotels
+ page",opens hotels page,pass
+,,,,,,,,
+"Verify HOLDAYS button from
+ home page","TC_013_HomePage_ 
+holidays","This test case verifies 
+holidays icon in main page",1,"URL
+(https://www.irctc.co.
+in/nget/train-search)","Enter valid url and click on search 
+button. it should open login page","it should open home
+ page",opens home page,pass
+,,,2,,In home page click on hloidays icon,"it should open hloidyas
+ page",opens holidays page,pass
+,,,,,,,,
+"Verify LOYALITYbutton from 
+home page","TC_014_HomePage_ 
+loyality","This test case verifies the 
+loyality icon in main page",1,"URL
+(https://www.irctc.co.i
+n/nget/train-search)","Enter valid url and click on search 
+button. it should open login page","it should open home 
+page",opens home page,pass
+,,,2,,In home page click loyality icon,"it should open loyality
+ page",opens loyality page,pass
+,,,,,,,,
+"Verify MEALS buttonfrom
+ home page
+","TC_015_HomePage_ 
+meals","This test case verifies the
+ meals icon in main page",1,"URL
+(https://www.irctc.co.
+in/nget/train-search)","Enter valid url and click on search
+ button. it should open login page","it should open home
+page",opens home page,pass
+,,,2,,In home page click on meals icon,"it should open meals
+ page",opens meals page,pass
+,,,,,,,,
+"Verify PROMOTION button 
+from homepage","TC_016_HomePage_ 
+promotion","This test case verifies the
+ promotion icon in 
+main page",1,"URL
+(https://www.irctc.co.
+in/nget/train-search)","Enter valid url and click on search 
+button. it should open login page","it should open home
+page",opens home page,pass
+,,,2,,In home page click on promotion icon,"it should open 
+promotion page",opens promotion page,pass
+,,,,,,,,
+"Verify MORE button from
+ home page","TC_017_HomePage_ 
+more","This test case verifies the
+ more icon in main page",1,"URL
+(https://www.irctc.co.
+in/nget/train-search)","Enter valid url and click on search 
+button. it should open login page","it should open home
+ page",opens home pge,pass
+,,,2,,In home page click on more icon,"it should open more
+ page",opens more page,pass

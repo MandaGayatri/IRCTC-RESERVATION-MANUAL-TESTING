@@ -1,0 +1,13 @@
+Defect Id,Defect Description,status,Steps to Reproduce,Expected Result,Actual Result,Build no,Severity,Detected by,Assigned to
+"D001_HomePage
+_RegisterPage_
+Basic Details","In UserName field
+it is not taking 35
+characters",old,"1.Enter valid URL and click 
+on search button
+2.In main page select Register
+icon
+3.In username field enter 35 
+characters","It should take 
+35 characters","It takes upto
+30 characters ",,medium,Gayatri,

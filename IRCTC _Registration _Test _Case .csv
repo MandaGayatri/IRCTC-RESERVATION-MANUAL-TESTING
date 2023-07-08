@@ -1,0 +1,225 @@
+Test scenario,Test case Id,Testcase Description,Test case steps,Test Data,Steps to Reproduce,Expected Result,Actual Result,Pass/Fail
+"Verifing the continue button
+with valid data in
+ Registration Page.
+","TC001_HomePage_
+RegisterPage_Create an
+ Account_BasicDetails_
+valid data","This test case is to verify 
+Basic Details
+module with valid 
+data",1,"URL
+(https://www.irctc.co.
+in/nget/train-search)","Enter valid URL and 
+click on search button","It should open IRCTC
+main page","Opens IRCTC
+main page",Pass
+,,,2,,"In main page click on 
+Register icon","IT should open Register
+page with ""Create your 
+Account module""","Opens Register 
+page with ""Create
+your Account module""",Pass
+,,,3,"UserName:abcd@abcd@
+abcd@abcd@abcd@
+abcd@abcd@
+password:Gayatri@2199
+confirm password:
+Gayatri@2199
+Security Answer:Dog","1.In Username field 
+enter valid data
+2.In pasword field enter
+valid data
+3.In confirm password
+field enter valid data(i.e,
+repeat the same password) 
+4.select any perferred language
+5.select any security question
+6.enter valid security answer.
+7.click on continue button","It should take valid data
+and direct to personal 
+details page","Not Taking Valid data(
+i.e, 35 characters). It is 
+taking only 30 
+characters",Fail
+,,,,,,,,
+"Verifing the continue button
+ with Invalid data in
+ Registration Page.","TC002_HomePage_
+ RegisterPage_
+Create an Account_
+BasicDetails_ Invalid data","This test case is to verify
+ Basic Details module with
+ Invalid data",1,"URL
+(https://www.irctc.co
+.in/nget/train-search)","Enter valid URL and click 
+on search button","It should open IRCTC
+ main page","Opens IRCTC 
+main page",Pass
+,,,2,,In main page click on Register icon,"IT should open Register 
+page with ""Create your
+ Account module","Opens Register page
+ with ""Create your
+Account module""",Pass
+,,,3,"UserName:abc123
+abcd@abcd@
+ password:Gayatri@2199
+ confirm password:
+Gayatri@2199 
+Security Answer:Dog","1.In Username field enter Invalid data
+ 2.In pasword field enter valid data
+ 3.In confirm password field enter 
+valid data(i.e, repeat the same password) 
+4.select any perferred language
+ 5.select any security question
+ 6.enter valid security answer. 
+7.click on continue button","  It should display error
+message ""please enter
+valid UserName",Displays error message,Pass
+,,,4,"UserName:abc
+abcd@abcd@
+ password:gayatri@2199
+ confirm password:
+Gayatri@2199 
+Security Answer:Dog","1.In Username field enter valid data
+ 2.In pasword field enter Invalid data 
+3.In confirm password field enter valid
+ data(i.e, repeat the same password)
+ 4.select any perferred language 
+5.select any security question
+ 6.enter valid security answer.
+ 7.click on continue button","It should display error 
+message ""please enter
+ valid password"".",Displays error message,Pass
+,,,6,"UserName:abc
+ abcd@abcd@ 
+password:Gayatri@2199
+ confirm password:
+ Gayatri@2199 
+Security Answer:Dog","1.In Username field enter valid data
+ 2.In pasword field enter valid data 
+3.In confirm password field enter Invalid
+ data(i.e, repeat the same password) 
+4.select any perferred language 
+5.select any security question
+ 6.enter valid security answer.
+ 7.click on continue button","It should display error
+ message ""please enter
+ valid password""",Displays error message,Pass
+,,,7,"UserName:abc
+ abcd@abcd@ 
+password:Gayatri@2199
+ confirm password:
+ Gayatri@2199 
+Security Answer:Dog","1.In Username field enter valid data
+ 2.In pasword field enter valid data
+ 3.In confirm password field enter valid
+ data(i.e, repeat the same password) 
+4.Dont select perferred language 
+5.select any security question
+ 6.enter valid security answer. 
+7.click on continue button","It should display error 
+message ""please select 
+preferred language.""",Displays error message,Pass
+,,,8,"UserName:abc 
+abcd@abcd@ 
+password:Gayatri@2199
+ confirm password:
+ Gayatri@2199 
+Security Answer:Dog","1.In Username field enter valid data 
+2.In pasword field enter valid data
+ 3.In confirm password field enter valid
+ data(i.e, repeat the same password) 
+4. select perferred language 
+5.Dont select any security question 
+6.enter valid security answer. 
+7.click on continue button","It should display error 
+message ""please select
+ security question.""",Displays error message,Pass
+,,,9,"UserName:abc
+ abcd@abcd@ 
+password:Gayatri@2199
+ confirm password:
+ Gayatri@2199
+ Security Answer:Dog","1.In Username field enter valid data
+ 2.In pasword field enter valid data 
+3.In confirm password field enter valid
+ data(i.e, repeat the same password)
+ 4. select perferred language 
+5.Dont select any security question 
+6.enter Invalid security answer.
+ 7.click on continue button","It should display error 
+message ""please enter
+ valid Answer"".",Displays error message,Pass
+,,,,,,,,
+"Verifing the continue button
+ with blank data in
+ Registration Page.","TC002_HomePage_
+ RegisterPage_ Create an
+ Account_ BasicDetails
+_ Blank data","This test case is to verify
+ Basic Details module
+with Blank data",1,"URL
+(https://www.irctc.co.
+in/nget/train-search)","Enter valid URL and click
+ on search button","Enter valid URL and click 
+on search button","Opens IRCTC
+ main page",Pass
+,,,1,"UserName:
+
+password:Gayatri@2199
+ confirm password:
+ Gayatri@2199
+ Security Answer:Dog","1.In Username field enter blank data
+ 2.In pasword field enter valid data 
+3.In confirm password field enter valid
+ data(i.e, repeat the same password) 
+4. select perferred language 
+5.Dont select any security question 
+6.enter Invalid security answer.
+ 7.click on continue button","It should display error
+ message ""please enter 
+valid UserName"".",Displays error message,pass
+,,,2,"UserName:abc
+ abcd@abcd@ 
+password:
+ confirm password:
+ Gayatri@2199
+ Security Answer:Dog","1.In Username field enter valid data
+ 2.In pasword field enter blank data
+ 3.In confirm password field enter valid
+ data(i.e, repeat the same password) 
+4. select perferred language 
+5.Dont select any security question 
+6.enter Invalid security answer. 
+7.click on continue button","It should display error
+ message ""please enter
+ valid password""",Displays error message,pass
+,,,3,"UserName:abc
+ abcd@abcd@
+ password:Gayatri@2199
+ confirm password: 
+ Security Answer:Dog","1.In Username field enter valid data 
+2.In pasword field enter valid data
+ 3.In confirm password field enter blank data
+4. select perferred language
+ 5.Dont select any security question 
+6.enter Invalid security answer.
+ 7.click on continue button","It should display error
+ message ""please
+ enter password""",Displays error message,pass
+,,,4,"UserName:abc 
+abcd@abcd@ 
+password:Gayatri@2199 
+confirm password:
+ Gayatri@2199
+ Security Answer:","1.In Username field enter valid data 
+2.In pasword field enter valid data
+ 3.In confirm password field enter valid 
+data(i.e, repeat the same password) 
+4. select perferred language 
+5.Dont select any security question
+ 6.enter Invalid security answer. 
+7.click on continue button","It should display error 
+message ""please enter
+ valid Answer"".",Displays error message,pass
