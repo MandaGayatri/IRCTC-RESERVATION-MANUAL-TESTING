@@ -10,11 +10,11 @@
    
    Scenarios
 
-   Reports
+   Defects
     
 # Introduction:
 
-In manual testing, it is crucial to have well-defined test cases, detailed scenarios and insightful reports. This repository aims to provide a centralized location for organizing and documenting these artifacts to enhance the efficiency and effectiveness of manual testing projects. 
+In manual testing, having well-defined test cases, detailed scenarios, and insightful reports is essential. This repository aims to provide a centralized place for organizing and documenting these elements, making manual testing projects more efficient and effective. By keeping everything in one location, it simplifies the process, prevents duplication, and promotes better collaboration among team members.
 
 # Test Cases
 
@@ -25,16 +25,26 @@ Test case Data
 Steps to Reproduce
 Actual Results (to be filled during test execution)
 Expected results
+Pass/Fail
 Test cases are essential for ensuring thorough test coverage and providing a clear roadmap for manual testing.
 
  # Scenarios
  
- The scenarios consists of detailed scenarios that represent different user workflows or use cases within the system. Scenarios help testers understand the system's behavior from end-users' perspectives and ensure that all user interactions are thoroughly tested.
+Scenarios in manual testing are detailed representations of various user workflows or use cases within the system. They help testers understand how the system behaves from the end-users' perspective and ensure thorough testing of all user interactions.
  
-# Reports
+# Defects
 
-The reports are dedicated to storing various reports generated during manual testing. Reports may include defect reports, test execution reports, test summary reports, and any other relevant documentation. These reports provide valuable insights into the testing progress, identified issues, and overall test results.
-
+Defect Id
+Defect Description
+Defect Status
+Steps to Reproduce
+Test Data
+Actual Result
+Expected Result
+Severity
+Build no/User Story no
+Detected by
+Assigned to
   
 
 
