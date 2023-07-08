@@ -1,5 +1,5 @@
 Test scenario,Test case Id,Testcase Description,Test case steps,Test Data,Steps to Reproduce,Expected Result,Actual Result,Pass/Fail
-"Verifing the continue button
+"Verifying the continue button
 with valid data in
  Registration Page.
 ","TC001_HomePage_
@@ -43,7 +43,7 @@ i.e, 35 characters). It is
 taking only 30 
 characters",Fail
 ,,,,,,,,
-"Verifing the continue button
+"Verifying the continue button
  with Invalid data in
  Registration Page.","TC002_HomePage_
  RegisterPage_
@@ -152,7 +152,7 @@ password:Gayatri@2199
 message ""please enter
  valid Answer"".",Displays error message,Pass
 ,,,,,,,,
-"Verifing the continue button
+"Verifying the continue button
  with blank data in
  Registration Page.","TC002_HomePage_
  RegisterPage_ Create an
